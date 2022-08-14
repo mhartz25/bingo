@@ -37,7 +37,7 @@ def vert_bingo_check(answer):
     column_one = all([index[0] for index in answer]) 
     combine.append(column_one) 
     
-    column_two = all([index[0] for index in answer])
+    column_two = all([index[1] for index in answer])
     combine.append(column_two)
         
     column_three = all([index[2] for index in answer])
